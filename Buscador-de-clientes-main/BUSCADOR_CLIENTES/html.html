@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body class="body">
+
+    <div class="contenedor">
+        <div class="header">
+            <h1>BuscaClientes</h1>
+        </div>
+
+        <div class="contenedorNav">
+            <nav class="nav"><a href="">
+                    <h2>Inicio</h2>
+                </a></nav>
+            <nav class="nav"><a href="" class="crearContacto">
+                    <h2>Crear contacto</h2>
+                </a></nav>
+            <nav class="nav"><a href="">
+                    <h2>Contacto</h2>
+                </a></nav>
+        </div>
+
+        <div class="textoHeader">Filtra y encuentra tus clientes según el nombre</div>
+        <!-- div donde ingresaremos usuarios -->
+        <div>
+            <input class="input" type="text" placeholder="Ingresa el nombre aquí">
+        </div>
+
+        <div class="formularioContenedor">
+            <form class="formularioContacto">
+                <input type="text" class="nombre" placeholder="Nombre" required>
+                <input type="text" class="apellido" placeholder="Apellido" required>
+                <textarea type="text" class="descripcion" placeholder="Descripción breve" required></textarea>
+                <input type="file" class="imagen" accept="image/*" placeholder="Imagen" required>
+                <button type="submit" class="crear">Crear</button>
+            </form>
+        </div>
+
+        <!-- div donde ingresaremos las cards -->
+        <div class="contenedorCartas">
+            <!--
+            <div class="carta">
+                <div class="imagenNombre">
+                    <div class="imagen"><img src="viniloPng.png" alt=""></div>
+                    <div class="nombreYapellido">
+                        <div class="nombre">Agustínsdaas</div>
+                        <div class="apellido">Agustínsdaas</div>
+                    </div>
+                </div>
+                <div class="descripción">por su capacidad para resolver problemas y trabajar en equipo.</div>
+            </div>
+             -->
+        </div>
+
+        
+    <footer class="footer">Gracias por confiar en BuscaClientes, tu página para gestión Nº1 de Vigo</footer>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
